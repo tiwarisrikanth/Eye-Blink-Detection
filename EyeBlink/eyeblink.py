@@ -40,7 +40,7 @@ while(ret):
                     cv2.putText(img, "No eyes detected but Face detected", (70,70), cv2.FONT_HERSHEY_PLAIN, 3, (0,0,255), 2)
                 else:
                     #This will print on teh console and will restart the algorithm
-                    print("Blink Detected..........s")
+                    print("Blink Detected.....")
                     cv2.waitKey(3000)
                     first_read = True
     else:
